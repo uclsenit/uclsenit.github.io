@@ -1,1 +1,21 @@
+name: Michele Farmer
+title: Michele Farmer
+description: Continuing Professional Development
 theme: jekyll-theme-minimal
+
+markdown: kramdown
+
+gems:
+  - jekyll-mentions
+
+# Adds /blog/ in between homepage URL and year/month/day/title.html
+permalink: /blog/:year/:month/:day/:title
+
+# Handling reading
+include: [".htaccess", "_pages"]
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
