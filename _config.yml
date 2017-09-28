@@ -2,6 +2,7 @@ name: Michele Farmer
 title: Michele Farmer
 description: Continuing Professional Development
 theme: jekyll-theme-minimal
+show_downloads: false
 
 markdown: kramdown
 
