@@ -1171,6 +1171,10 @@ header {
         padding: 0;
         text-transform: uppercase;
     }
+    h1, h1 a {
+        color: #222;
+        opacity: 1; /* Prevent opacity from changing during selective refreshes in the customize preview */
+    }
     h2 {
         color: #666;
         font-size: 13px;
@@ -1190,11 +1194,6 @@ header {
 }
 
 /* Site branding */
-
-.wrapper header h1, .wrapper header h1 a {
-    color: #222;
-    opacity: 1; /* Prevent opacity from changing during selective refreshes in the customize preview */
-}
 
 // body.has-header-image .site-title,
 // body.has-header-video .site-title,
