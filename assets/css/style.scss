@@ -1142,10 +1142,10 @@ header {
     // background-color: #fafafa;
     // background-image: url('/assets/images/header.jpg')
     // background: url('/assets/images/header.jpg') no-repeat center center fixed;
-    // -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // -o-background-size: cover;
-    // background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
 }
 
