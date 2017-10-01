@@ -575,6 +575,7 @@ header {
     position: relative;
     -webkit-transition: margin-bottom 0.2s;
     transition: margin-bottom 0.2s;
+    margin-bottom: 1.75em !important; /* override styles added by JavaScript */
     z-index: 3;
     display: table;
     height: 300px;
