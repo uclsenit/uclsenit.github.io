@@ -612,14 +612,12 @@ header {
         opacity: 1; /* Prevent opacity from changing during selective refreshes in the customize preview */
     }
     h2 {
-        color: #666;
+        // color: #666;
+        color: #fff;
         font-size: 13px;
         font-size: 0.8125rem;
         margin-bottom: 0;
-        a {
-            color: #fff;
-            opacity: 0.8;
-        }
+        opacity: 0.8;
     }
 }
 
