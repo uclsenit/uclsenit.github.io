@@ -563,13 +563,6 @@ body {
 --------------------------------------------------------------*/
 
 header {
-    // background-color: #fafafa;
-    // background-image: url('/assets/images/header.jpg')
-    // background: url('/assets/images/header.jpg') no-repeat center center fixed;
-    // -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // -o-background-size: cover;
-    // background-size: cover;
     position: relative;
     padding: 1em 0;
     position: relative;
@@ -686,9 +679,9 @@ header {
         bottom: 0;
         content: "";
         display: block;
-        height: 100%;
+        width: 100%;
         left: 0;
-        position: absolute;
+        // position: absolute;
         right: 0;
         z-index: 2;
     }
