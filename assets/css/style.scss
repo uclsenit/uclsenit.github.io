@@ -631,13 +631,48 @@ header {
         font-size: 36px;
         font-size: 2.25rem;
     }
+
     header h2 {
         font-size: 16px;
         font-size: 1rem;
     }
+
+    header .menu-scroll-down {
+        display: block;
+        padding: 1em;
+        position: absolute;
+        right: 0;
+        color: #fff;
+        top: 2em;
+        .icon {
+            -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+            -ms-transform: rotate(90deg); /* IE 9 */
+            transform: rotate(90deg);
+        }
+    }
+
+    // header .navigation-top .menu-scroll-down {
+    //     color: #767676;
+    //     top: 0.7em;
+    // }
+
+    .menu-scroll-down {
+        .icon {
+            height: 18px;
+            width: 18px;
+        }
+        &:focus {
+            outline: thin dotted;
+        }
+    }
 }
 
 .header-image {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.3+75 */
+    background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.3) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#4d000000", GradientType=0); /* IE6-9 */
     bottom: 0;
     left: 0;
     overflow: hidden;
