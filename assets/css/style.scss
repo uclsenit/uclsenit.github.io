@@ -624,11 +624,12 @@ header {
     right: 0;
     top: 0;
     width: 100%;
+    z-index: -1;
     img {
         position: fixed;
         height: auto;
         left: 50%;
-        max-width: 1000%;
+        max-width: 100%;
         min-height: 100%;
         min-width: 100%;
         min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
