@@ -580,7 +580,7 @@ header {
     height: 300px;
     height: 75vh;
     width: 100%;
-    a {
+    a, h1 a {
         text-decoration: none;
         -webkit-transition: opacity 0.2s;
         transition: opacity 0.2s;
