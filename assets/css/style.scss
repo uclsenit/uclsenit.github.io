@@ -593,7 +593,8 @@ header {
     h1, h2 {
         // display: inline-block;
         // vertical-align: middle;
-        display: table-cell;
+        // display: table-cell;
+        display: table-row;
         height: 100%;
         vertical-align: bottom;
         margin: 0 0 1.5em;
@@ -623,7 +624,6 @@ header {
         font-size: 0.8125rem;
         margin-bottom: 0;
         opacity: 0.8;
-        display: table-row;
     }
 }
 
