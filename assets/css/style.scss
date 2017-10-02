@@ -704,8 +704,14 @@ header {
     }
 
     .header-image {
-        height: 165px;
-        position: relative;
+        // height: 165px;
+        // position: relative;
+        &:before {
+            height: 1200px;
+            height: 100vh;
+            max-height: 100%;
+            overflow: hidden;
+        }
     }
 }
 
