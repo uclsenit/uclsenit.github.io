@@ -1,5 +1,8 @@
         <header>
-            <div class="header-image gradient"><img src="/assets/images/header.jpg" width="2000" height="1200" alt="Michele Farmer" /></div>
+            <div class="header-image">
+                <div class="gradient"></div>
+                <img src="/assets/images/header.jpg" width="2000" height="1200" alt="Michele Farmer" />
+            </div>
             <h1><a href="{{ site.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
             <a href="#content" class="menu-scroll-down"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg><span class="screen-reader-text">Scroll down to content</span></a>
