@@ -22,3 +22,24 @@
         ga('send', 'pageview');
     </script>
   {% endif %}
+
+<!-- Structure in original:
+header (everything within image space)
+    .custom-header (seems to be same as header)
+        .custom-header-media (ditto above)
+            .custom-header-media:before (gradient)
+                .wp-custom-header (encloses nothing, so it seems)
+                    .wp-custom-header img (actual image)
+            .site-branding (full-width but only encloses header text and padding-bottom extends to end of actual header)
+                .wrap (encloses header text, width as far as main content would be going, plus padding on left and right but not top and bottom)
+                    .site-branding-text (encloses header text only as far as it extends)
+-->
+
+<!-- Structure converted for static use:
+header (everything within image space) <- make this a combination of header, .custom-header, and .custom-header-media, I think!
+    .header-image:before (gradient) <- .custom-header-media:before
+        .header-image img (actual image) <- .wp-custom-header img
+    .header (full-width but only encloses header text and padding-bottom extends to end of actual header) <- .site-branding
+        .wrap (encloses header text, width as far as main content would be going, plus padding on left and right but not top and bottom) <- .wrap
+            .header-text (encloses header text only as far as it extends) <- .site-branding-text
+-->
