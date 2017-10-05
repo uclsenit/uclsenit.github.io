@@ -544,7 +544,6 @@ body {
 
 // Equivalent to origstyle.scss .site-branding
 .header {
-    margin-bottom: 0;
     bottom: 0;
     display: block;
     left: 0;
@@ -553,7 +552,7 @@ body {
     position: absolute;
     width: 100%;
     vertical-align: bottom;
-    padding: 3em 0;
+    -webkit-transition: margin-bottom 0.2s;
     transition: margin-bottom 0.2s;
     z-index: 3;
 }
