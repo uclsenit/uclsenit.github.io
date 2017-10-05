@@ -579,16 +579,15 @@ body {
 
 header {
     position: relative;
-    padding: 1em 0;
-    position: relative;
-    -webkit-transition: margin-bottom 0.2s;
-    transition: margin-bottom 0.2s;
-    margin-bottom: 1.75em !important; /* override styles added by JavaScript */
-    z-index: 3;
-    display: table;
-    height: 300px;
-    height: 75vh;
-    width: 100%;
+    // padding: 1em 0;
+    // -webkit-transition: margin-bottom 0.2s;
+    // transition: margin-bottom 0.2s;
+    // margin-bottom: 1.75em !important; /* override styles added by JavaScript */
+    // z-index: 3;
+    // display: table;
+    // height: 300px;
+    // height: 75vh;
+    // width: 100%;
     a, h1 a {
         text-decoration: none;
         -webkit-transition: opacity 0.2s;
