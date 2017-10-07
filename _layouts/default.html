@@ -3,9 +3,8 @@
     <div class="wrapper">
       <!-- <img src="/assets/images/header.jpg" alt="Header image of a spiky plant on an unfocused table" style="width:2000px;height:1200px;"> -->
       {% include header.html %}
-      <section>
-        {{ content }}
-      </section>
+
+      {% include content.html %}
 
       {% include footer.html %}
 
@@ -33,9 +32,52 @@ header (everything within image space)
             .site-branding (full-width but only encloses header text and padding-bottom extends to end of actual header)
                 .wrap (encloses header text, width as far as main content would be going, plus padding on left and right but not top and bottom)
                     .site-branding-text (encloses header text only as far as it extends)
+.site-content-contain (everything below header, including footer)
+    .site-content (everything below header, EXCEPT footer)
+        .content-area (seems to be same as .site-content)
+            main (seems to be same as .site-content and .content-area)
+                article (seems to be same as .site-content, .content-area, and main)
+                    .panel-content (seems to be same as .site-content, .content-area, main, and article)
+                        .wrap (encloses content header on left and article's potential maximum width on right)
+                            header.entry-header (encloses full-width content header on left plus big margin-bottom)
+                                h2.entry-title (encloses full-width content header on left without big margin-bottom)
+                            .entry-content (encloses content potential maximum height and width)
+                                h3 (CMALT plus large margin-bottom)
+                                ul
+                                    li
+                                        a
+                                    li
+                                        a
+footer.site-footer (full-width footer, with large margin-top)
+    .wrap (where footer text goes, to potential maximum width, and including large all-round padding)
+        .site-info (potential maximum width of footer text, with small padding-top and small margin-bottom)
+            a (actual link text, only enclosing as much as is there)
 -->
 
-<!-- Structure converted for static use:
+<!-- Structure from first principles:
+header (everything within image space)
+    .header-image (actual image)
+        .header-gradient (gradient, full-width but 33% height, aligned at bottom of .header-image (and header by necessity too))
+            (.wrap?)
+                .header-text (encloses h1 and h2 only, to wrapper width)
+                .content-link (down arrow, if desired)
+.content <- equivalent to .site-content, .content-area, main, article, and .panel-content
+    .wrap <- equivalent to .wrap, duh
+        .post-header <- equivalent to header.entry-header
+            .post-header h2 <- equivalent to h2.entry-title
+        .post-content <- equivalent to .entry-content
+            h3
+            ul
+                li
+                    a
+            etc
+footer <- equivalent to footer.site-footer
+    .wrap <- equivalent to .wrap, duh
+        .footer-content <- equivalent to footer.site-info
+            a <- equivalent to footer.site-info a
+-->
+
+<!-- DEPRECATED: Structure converted for static use:
 header (everything within image space) <- make this a combination of header, .custom-header, and .custom-header-media, I think!
     .header-image:before (gradient) <- .custom-header-media:before
         .header-image img (actual image) <- .wp-custom-header img
