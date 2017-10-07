@@ -612,17 +612,17 @@ header {
 
 // Equivalent to origstyle.scss .site-branding
 .header-gradient {
-    bottom: 0;
-    display: block;
-    left: 0;
+    // bottom: 0;
+    // display: block;
+    // left: 0;
     height: auto;
     padding-top: 0;
-    position: absolute;
+    // position: absolute;
     width: 100%;
     vertical-align: bottom;
     -webkit-transition: margin-bottom 0.2s;
     transition: margin-bottom 0.2s;
-    z-index: 3;
+    // z-index: 3;
 }
 
 .header-gradient {
