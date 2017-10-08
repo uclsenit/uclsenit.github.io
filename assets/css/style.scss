@@ -685,12 +685,12 @@ header {
 }
 
 @media screen and (min-width: 48em) {
-    header h1 {
+    .header-text h1 {
         font-size: 36px;
         font-size: 2.25rem;
     }
 
-    header h2 {
+    .header-text h2 {
         font-size: 16px;
         font-size: 1rem;
     }
