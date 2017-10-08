@@ -639,6 +639,7 @@ header {
 }
 
 .header-text {
+    z-index: 1;
     a, h1 a {
         text-decoration: none;
         -webkit-transition: opacity 0.2s;
