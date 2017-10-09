@@ -626,7 +626,8 @@ header {
     left: 0;
     // height: 100%;
     // height: 33%;
-    height: auto;
+    // height: auto;
+    height: 50%;
     max-height: 100%;
     // padding-top: 0;
     padding: 0 0 3em 0;
@@ -637,7 +638,7 @@ header {
     width: 100%;
     -webkit-transition: margin-bottom 0.2s;
     transition: margin-bottom 0.2s;
-    z-index: 3;
+    z-index: 2;
 }
 
 .header-text {
@@ -653,7 +654,7 @@ header {
         }
     }
     h1, h2 {
-        z-index: 4;
+        z-index: 3;
         // vertical-align: middle;
         // display: table-cell;
         // display: inline-block;
