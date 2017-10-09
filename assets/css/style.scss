@@ -638,7 +638,7 @@ header {
 }
 
 .header-text {
-    padding: 3em 0;
+    vertical-align: bottom;
     a, h1 a {
         text-decoration: none;
         -webkit-transition: opacity 0.2s;
