@@ -747,21 +747,34 @@ header {
             height: 33%;
         }
     }
+
+    section .content .wrap {
+        padding-bottom: 4.5em;
+        padding-top: 6em;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    section .content .wrap {
+        padding-bottom: 2em;
+        padding-top: 3.5em;
+    }
 }
 
 /*--------------------------------------------------------------
 13.3 Regular Content
 --------------------------------------------------------------*/
 
-section.content {
+section .content {
     background-color: #fff;
     position: relative;
     overflow: hidden;
 }
 
-// .site-content {
-//     padding: 2.5em 0 0;
-// }
+section .content .wrap {
+    padding-bottom: 0.5em;
+    padding-top: 1.75em;
+}
 
 /*--------------------------------------------------------------
 13.4 Posts
