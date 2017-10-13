@@ -648,7 +648,7 @@ header {
 .header-text {
     display: inline-block;
     vertical-align: bottom;
-    position: absolute;
+    position: relative;
     top: -200px;
     // z-index: 2;
     a, h1 a {
