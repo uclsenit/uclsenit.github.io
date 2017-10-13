@@ -696,6 +696,40 @@ header {
     }
 }
 
+/*--------------------------------------------------------------
+13.3 Regular Content
+--------------------------------------------------------------*/
+
+section .content {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+section .content .wrap {
+    padding-bottom: 0.5em;
+    padding-top: 1.75em;
+}
+
+.post-header {
+    float: left;
+    width: 36%;
+}
+
+.post-header h2 {
+    color: #222;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+}
+
+.post-content {
+    float: right;
+    width: 58%;
+}
+
 @media screen and (min-width: 48em) {
     .header-text h1 {
         font-size: 36px;
@@ -776,40 +810,6 @@ header {
 }
 
 /*--------------------------------------------------------------
-13.3 Regular Content
---------------------------------------------------------------*/
-
-section .content {
-    background-color: #fff;
-    position: relative;
-    overflow: hidden;
-}
-
-section .content .wrap {
-    padding-bottom: 0.5em;
-    padding-top: 1.75em;
-}
-
-.post-header {
-    float: left;
-    width: 36%;
-}
-
-.post-header h2 {
-    color: #222;
-    font-size: 0.875rem;
-    font-weight: 800;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    margin-bottom: 0.25em;
-}
-
-.post-content {
-    float: right;
-    width: 58%;
-}
-
-/*--------------------------------------------------------------
 13.4 Posts
 --------------------------------------------------------------*/
 
@@ -841,10 +841,6 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     font-weight: 800;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-}
-
-.entry-header .entry-title {
-    margin-bottom: 0.25em;
 }
 
 .entry-title a {
