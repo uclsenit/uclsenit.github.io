@@ -752,12 +752,26 @@ header {
         padding-bottom: 4.5em;
         padding-top: 6em;
     }
+
+    .post-header h2 {
+        font-size: 26px;
+        font-size: 1.625rem;
+    }
 }
 
 @media screen and (min-width: 30em) {
     section .content .wrap {
         padding-bottom: 2em;
         padding-top: 3.5em;
+    }
+
+    .post-header {
+        margin-bottom: 4.5em;
+    }
+
+    .post-header h2 {
+        font-size: 26px;
+        font-size: 1.625rem;
     }
 }
 
@@ -774,6 +788,25 @@ section .content {
 section .content .wrap {
     padding-bottom: 0.5em;
     padding-top: 1.75em;
+}
+
+.post-header {
+    float: left;
+    width: 36%;
+}
+
+.post-header h2 {
+    color: #222;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+}
+
+.post-content {
+    float: right;
+    width: 58%;
 }
 
 /*--------------------------------------------------------------
