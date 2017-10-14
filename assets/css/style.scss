@@ -821,6 +821,12 @@ footer .wrap {
     padding-top: 2em;
 }
 
+.footer-content {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 1em;
+}
+
 /*--------------------------------------------------------------
 16.0 Media
 --------------------------------------------------------------*/
@@ -1219,11 +1225,11 @@ object {
         margin-top: 3em;
     }
 
-    // .site-info {
-    //     float: left;
-    //     padding: 0.7em 0 0;
-    //     width: 58%;
-    // }
+    .footer-content {
+        float: left;
+        padding: 0.7em 0 0;
+        width: 58%;
+    }
 
     // .site-info .sep {
     //     margin: 0 0.5em;
