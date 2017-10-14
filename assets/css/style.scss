@@ -963,7 +963,6 @@ object {
 }
 
 @media screen and (min-width: 30em) {
-
     /* Typography */
     body,
     button,
@@ -1013,7 +1012,7 @@ object {
         margin-bottom: 4.5em;
     }
 
-    .post-header h2 {
+    .post-title {
         font-size: 26px;
         font-size: 1.625rem;
     }
@@ -1056,9 +1055,7 @@ object {
 }
 
 @media screen and (min-width: 48em) {
-
     /* Typography */
-
     body,
     button,
     input,
@@ -1134,7 +1131,7 @@ object {
         padding-top: 6em;
     }
 
-    .post-header h2 {
+    .post-title {
         font-size: 26px;
         font-size: 1.625rem;
     }
@@ -1173,11 +1170,6 @@ object {
     // }
 
     // /* Posts */
-
-    .post-title {
-        font-size: 26px;
-        font-size: 1.625rem;
-    }
 
     // .post-footer {
     //     display: table;
@@ -1243,9 +1235,7 @@ object {
 --------------------------------------------------------------*/
 
 @media print {
-
     /* Hide elements */
-
     form,
     button,
     input,
