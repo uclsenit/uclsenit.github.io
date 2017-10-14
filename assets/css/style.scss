@@ -600,7 +600,7 @@ header {
     // z-index: -1;
 
     img {
-        z-index: -1;
+        // z-index: -1;
         position: fixed;
         height: auto;
         left: 50%;
@@ -698,6 +698,10 @@ header {
         margin-bottom: 0;
         opacity: 0.8;
     }
+}
+
+.menu-scroll-down {
+    //
 }
 
 /*--------------------------------------------------------------
