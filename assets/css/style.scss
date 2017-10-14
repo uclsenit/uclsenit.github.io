@@ -657,6 +657,7 @@ header {
     // z-index: 2;
     a, h1 a {
         z-index: 2;
+        position: relative;
         text-decoration: none;
         -webkit-transition: opacity 0.2s;
         transition: opacity 0.2s;
