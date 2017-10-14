@@ -671,6 +671,7 @@ header {
         // display: table-cell;
         // display: inline-block;
         position: relative;
+        z-index: 1;
         height: 100%;
         vertical-align: bottom;
         margin: 0 0 1.5em;
